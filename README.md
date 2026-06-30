@@ -5,7 +5,7 @@
 This project documents a comprehensive Virtual Private Cloud (VPC) architecture designed for fintech applications on AWS (deployed via Console). The design emphasizes security, compliance, scalability, and high availability for banking and payment processing workloads.
 
 **Project Name:** Crestline Bank VPC Network  
-**Cloud Provider:** Amazon Web Services (AWS Console-based deployment)  
+**Cloud Provider:** Amazon Web Services
 **Architecture Type:** Multi-tier, Multi-AZ, Enterprise-grade
 
 ## Project Structure
