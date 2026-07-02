@@ -14,7 +14,6 @@ This project documents a comprehensive Virtual Private Cloud (VPC) architecture 
 - **Security Controls** - Security Groups, NACLs, AWS WAF, and Shield protection
 - **High Availability** - Multi-AZ deployment across availability zones
 - **Compliance & Regulations** - PCI-DSS, SOC 2, GDPR requirements
-- **Deployment Method** - AWS Management Console (manual configuration with documented steps)
 
 ## Architecture Highlights
 
@@ -56,7 +55,6 @@ This project documents a comprehensive Virtual Private Cloud (VPC) architecture 
 
 ### Prerequisites
 - AWS account with appropriate IAM permissions (EC2, VPC, ELB, CloudWatch)
-- AWS Management Console access (no CLI/script required for console deployment)
 - Understanding of network design and security concepts
 - Access to organizational network policies and compliance requirements
 
@@ -111,15 +109,6 @@ This architecture is deployed through the AWS Management Console using manual co
 5. **DDoS Mitigation** - Always-on protection enabled
 6. **Patch Management** - Regular patching for EC2 instances and AWS services
 7. **Multi-factor Authentication** - MFA enforced for all administrative access
-
-## Cost Optimization Strategies
-
-- **Reserved Instances** - Pre-commit for predictable workloads (1-3 year discounts)
-- **Spot VMs** - Use for non-critical, fault-tolerant workloads (up to 70% savings)
-- **Auto-scaling** - Scale resources based on actual demand
-- **Storage Optimization** - Right-sized EBS volumes, S3 intelligent tiering for data lifecycle
-- **Bandwidth Optimization** - Use Amazon CloudFront (CDN) for global distribution
-- **Shutdown Schedules** - Automated VM shutdown for non-production environments
 
 ## Network Architecture Diagram
 
