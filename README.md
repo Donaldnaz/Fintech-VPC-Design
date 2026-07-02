@@ -28,7 +28,6 @@ This project documents a comprehensive Virtual Private Cloud (VPC) architecture 
 ### Security Architecture
 - **Security Groups** - Stateful firewall rules per subnet and instance
 - **Network ACLs (NACLs)** - Stateless filtering at the subnet level
-- **VPN Connection** - Secure site-to-site and client VPN connectivity
 - **Bastion Host (Jump Box)** - Secure remote access to EC2 instances without public IP exposure
 - **VPC Endpoints (PrivateLink)** - Private connectivity to AWS services (S3, DynamoDB, Secrets Manager)
 
